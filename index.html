@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" class="sm:scroll-smooth">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Rose Legal</title>
+ <link rel="stylesheet" href="./style.css">
+<script src="./js/main.js" defer></script>
+</head>
+<body class="box-border min-h-screen bg-body-color">
+ <!--header container-->
+  <header class="sticky top-0">
+    <section class=" bg-header-color text-white flex max-w-4xl items-center mx-auto p-4 justify-between md:max-w-full">
+     <a href="./index.html"><img src="./images/logo.png" alt="logo img" class="w-20"></a>
+     
+     <!--<div>
+      <button id="mobile-open-button" class="text-3xl sm:hidden focus:outline-none">&#9776;</button>
+     </div>-->
+
+     <!--hamberger icon-->
+     <button id="hamburger-button" class="text-3xl md:hidden cursor-pointer">&#9776;
+     </button>
+    <nav id="navLinks" class="hidden md:flex justify-between items-center mx-auto w-[50%] translate-x-36">
+      <ul class="flex items-center gap-4 mb-2">
+        <a href="./service.html">
+          <li></li>Services
+        </a>
+        <a href="./about.html">
+          <li></li>About
+        </a>
+        <a href="./blog.html">
+          <li></li>Blog
+        </a>
+        <a href="./contact.html">
+          <li></li>Contact
+        </a>
+        
+      </ul>
+    </nav>
+    
+    <button class="bg-login-color p-1 pl-2 pr-2 rounded-md">Log in</button>
+    </section>
+    <!--section2-->
+    <section id="mobile-menu" class="absolute top-0 bg-black w-full text-5xl  flex-col justify-content-center text-white origin-top animate-open-menu hidden">
+      <button class="text-8xl self-end px-6">&times;</button>
+      <nav class="flex flex-col min-h-screen items-center py-8" aria-label="mobile">
+        <a href="./index.html" class="w-full text-center py-6 hover:opacity-90">Home</a>
+        <a href="./service.html" class="w-full text-center py-6 hover:opacity-90">Service</a>
+        <a href="./about.html" class="w-full text-center py-6 hover:opacity-90">About</a>
+        <a href="./blog.html" class="w-full text-center py-6 hover:opacity-90">Blog</a>
+        <a href="./contact.html" class="w-full text-center py-6 hover:opacity-90">Contact</a>
+      </nav>
+    </section>
+  </header>
+  <!--main-->
+  <main class=" max-w-4xl mx-auto">
+    <!--hero-section-->
+    <Section class=" flex flex-col-reverse sm:flex-row items-center px-24 mx-auto space-y-0 md:space-y-0 justify-between scroll-mt-40">
+      <div>
+        <!--hero text-->
+        <h1 class=" max-w-md text-5xl mb-8 mt-0 text-center sm:text-left">Legal Costs Consultants</h1>
+        <p class="max-w-md text-lg mb-8 mt-0 text-center sm:text-left ">Experienced legal costs lawyers in Sydney and Melbourne</p>
+        <div class="text-center">
+         <a href="./contact.html" target="_blank" ><button class="bg-login-color p-1 pl-2 pr-2 mx-auto rounded-md hover:bg-body-color">FREE CONSULTATION</button></a>
+        </div>
+        
+      </div>
+      <!--hero img-->
+      <div>
+        <img src="./images/hero img.png" alt="img">
+      </div>
+  </Section>
+  <!---testi-->
+  <section class="p-6 my-12">
+    <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6">Legal service you can trust</h2>
+    <div class="mx-auto my-12 flex flex-col sm:flex-row items-center gap-8">
+      <div class=" w-2/3 sm:w-5/6 flex flex-col items-center py-6 px-2">
+      <img src="./images/testimonial1.png" alt="img" class=" rounded-full w-40 h-40 bg-white object-cover">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, delectus nisi qui error reiciendis beatae
+        sapiente? Molestiae excepturi officiis illo voluptatibus voluptatum. Vel, eius consequatur?</p>
+      </div>
+      <div
+      class=" w-2/3 sm:w-5/6 flex flex-col items-center py-6 px-2  ">
+      <img src="./images/testimonial2.png" alt="img" class=" rounded-full w-40 h-40 bg-white object-cover">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, delectus nisi qui error reiciendis beatae
+        sapiente? Molestiae excepturi officiis illo voluptatibus voluptatum. Vel, eius consequatur?</p>
+      </div>
+      <div
+      class=" w-2/3 sm:w-5/6 flex flex-col items-center py-6 px-2  ">
+      <img src="./images/testimonial3.png" alt="img" class=" rounded-full w-40 h-40 bg-white object-cover">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, delectus nisi qui error reiciendis beatae
+        sapiente? Molestiae excepturi officiis illo voluptatibus voluptatum. Vel, eius consequatur?</p>
+      </div>
+      <div
+      class=" w-2/3 sm:w-5/6 flex flex-col items-center py-6 px-2  ">
+      <img src="./images/testimonial4.png" alt="img" class=" rounded-full w-40 h-40 bg-white object-cover">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, delectus nisi qui error reiciendis beatae
+        sapiente? Molestiae excepturi officiis illo voluptatibus voluptatum. Vel, eius consequatur?</p>
+      </div>
+  </div>
+    
+  </section>
+  <!---services-->
+  <section class="p-6 my-12 ">
+    <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6">Our Services</h2>
+    <div class="mx-auto my-12 flex flex-col sm:flex-row items-center gap-8">
+      <div class=" w-2/3 sm:w-5/6 flex flex-col items-center py-6 px-2 border border-solid border-black shadow-xl">
+        <img src="./images/drafting_bill.png" alt="img" class=" w-10 h-10 object-cover mb-4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, delectus nisi qui error reiciendis beatae
+          sapiente? Molestiae excepturi officiis illo voluptatibus voluptatum. Vel, eius consequatur?</p>
+      </div>
+      <div class=" w-2/3 sm:w-5/6 flex flex-col items-center py-6 px-2 border border-solid border-black shadow-xl">
+        <img src="./images/icon1.png" alt="img" class=" w-10 h-10 object-cover mb-4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, delectus nisi qui error reiciendis beatae
+          sapiente? Molestiae excepturi officiis illo voluptatibus voluptatum. Vel, eius consequatur?</p>
+      </div>
+      <div class=" w-2/3 sm:w-5/6 flex flex-col items-center py-6 px-2 border border-solid border-black shadow-xl">
+        <img src="./images/icon2.png" alt="img" class="  w-10 h-10 object-cover mb-4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, delectus nisi qui error reiciendis beatae
+          sapiente? Molestiae excepturi officiis illo voluptatibus voluptatum. Vel, eius consequatur?</p>
+      </div>
+      <div class=" w-2/3 sm:w-5/6 flex flex-col items-center py-6 px-2 border border-solid border-black shadow-xl">
+        <img src="./images/icon3.png" alt="img" class="  w-10 h-10 object-cover mb-4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, delectus nisi qui error reiciendis beatae
+          sapiente? Molestiae excepturi officiis illo voluptatibus voluptatum. Vel, eius consequatur?</p>
+      </div>
+    </div>
+ <div class="text-center"><a href="./service.html" target="_blank"><button class="mx-auto p-2 bg-login-color rounded-md hover:bg-body-color">View other services</button></a></div> 
+  </section>
+ <!---practice areas-->
+ <section class=" p-4 my-16" >
+  <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6">Practice areas</h2>
+  <div class=" flex flex-col border border-solid border-black  bg-login-color sm:flex-row gap-8">
+    <img src="./images/litigation__1.png" alt="commercial litigation" class="w-10 ml-4">
+    <p class="sm:pt-2">Commercial Litigation</p>
+  </div>
+  <div class=" mt-2 flex gap-8 flex-col border border-solid border-black  bg-login-color sm:flex-row">
+    <img src="./images/construction.png" alt="Construction Law" class="w-10 ml-4">
+    <p class="sm:pt-2">Construction Law</p>
+  </div>
+  <div class=" mt-2 flex gap-8 flex-col border border-solid border-black  bg-login-color sm:flex-row">
+    <img src="./images/clinical.png" alt="Clinical Negligence" class="w-10 ml-4">
+    <p class="sm:pt-2">Clinical Negligence</p>
+  </div>
+  <div class=" mt-2 flex gap-8 flex-col border border-solid border-black  bg-login-color sm:flex-row">
+    <img src="./images/employment.png" alt="employment law" class="w-10 ml-4">
+    <p class="sm:pt-2">Employment Law</p>
+  </div>
+  <div class=" mt-2 flex gap-8 flex-col border border-solid border-black  bg-login-color sm:flex-row">
+    <img src="./images/defamation.png" alt="Defamation" class="w-10 ml-4">
+    <p class="sm:pt-2">Defamation</p>
+  </div>
+  <div class=" mt-2 flex gap-8 flex-col border border-solid border-black  bg-login-color sm:flex-row">
+    <img src="./images/estate.png
+    " alt="Contested Estates" class="w-10 ml-4">
+    <p class="sm:pt-2">Contested Estates</p>
+  </div>
+  <div class=" mt-2 flex gap-8 flex-col border border-solid border-black  bg-login-color sm:flex-row">
+    <img src="./images/family.png" alt="Family Law" class="w-10 ml-4">
+    <p class=" sm:pt-2 ">Family Law</p>
+  </div>
+ </section>
+  </main>
+   <!---footer-->
+   <footer class="text-center bg-header-color text-white p-4">
+   <div class="mb-4"><p>info@rose-lawyers.com</p>
+  <p>02 8089 3167</p>
+  <p>Level 21, 133 Castlereagh Street
+    Sydney NSW 2000
+  </p>
+  <p>Level 11/456 Lonsdale St
+    Melbourne VIC 3000</p>
+  </div> 
+   <a class="" href="#" ><ion-icon name="logo-linkedin"></ion-icon></a>
+   </footer>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

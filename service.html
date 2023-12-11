@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" class="sm:scroll-smooth">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Services</title>
+ <link rel="stylesheet" href="./style.css">
+<script src="./js/main.js" defer></script>
+
+</head>
+
+<body class="box-border min-h-screen bg-body-color ">
+ <!--header container-->
+<header class="sticky top-0">
+  <section class="  bg-header-color max-w-sm text-white flex items-center mx-auto p-4 justify-between sm:max-w-4xl md:max-w-full">
+    <a href="./index.html"><img src="./images/logo.png" alt="logo img" class="w-20"></a>
+
+    <!--<div>
+      <button id="mobile-open-button" class="text-3xl sm:hidden focus:outline-none">&#9776;</button>
+     </div>-->
+<!--hamberger icon-->
+<button id="hamburger-button" class="text-3xl md:hidden cursor-pointer">&#9776;
+</button>
+<nav id="navLinks" class="hidden md:flex justify-between items-center mx-auto w-[50%] translate-x-36">
+  <ul class="flex items-center gap-4 mb-2">
+    <a href="./service.html">
+      <li></li>Services
+    </a>
+    <a href="./about.html">
+      <li></li>About
+    </a>
+    <a href="./blog.html">
+      <li></li>Blog
+    </a>
+    <a href="./contact.html">
+      <li></li>Contact
+    </a>
+
+  </ul>
+</nav>
+
+<button class="bg-login-color p-1 pl-2 pr-2 rounded-md">Log in</button>
+</section>
+<!--section2-->
+<section id="mobile-menu"
+  class="absolute top-0 bg-black w-full text-5xl  flex-col justify-content-center text-white origin-top animate-open-menu hidden">
+  <button class="text-8xl self-end px-6">&times;</button>
+  <nav class="flex flex-col min-h-screen items-center py-8" aria-label="mobile">
+    <a href="./index.html" class="w-full text-center py-6 hover:opacity-90">Home</a>
+    <a href="./service.html" class="w-full text-center py-6 hover:opacity-90">Service</a>
+    <a href="./about.html" class="w-full text-center py-6 hover:opacity-90">About</a>
+    <a href="./blog.html" class="w-full text-center py-6 hover:opacity-90">Blog</a>
+    <a href="./contact.html" class="w-full text-center py-6 hover:opacity-90">Contact</a>
+  </nav>
+</section> 
+</header>
+ <!---main-->
+  <section class="p-2 sm:p-4">
+    
+    <div class="relative flex flex-col flex-wrap justify-center items-center sm:flex-row">
+      <div class="opacity-60 ">
+        <img class="mt-4" src="./images/service.jpg"></div>
+      <div class="absolute text-center p-28 mx-auto mt-4 sm:mt-0">
+        <h1 class="text-lg  font-bold text-center text-white block
+        sm:text-5xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h1>
+        <hr class=" mt-4 mb-4 border border-solid border-black mx-auto ">
+        <p class="text-center  sm:mx-40 sm:text-left" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cumque illum, optio ex distinctio quae molestias vitae ratione harum earum veritatis voluptas nostrum natus! Unde!</p>
+      </div>
+    </div>
+    <!---service list-->
+    <container class="flex justify-between flex-col-reverse p-8 sm:flex-row">
+      <!---imgs div-->
+      <div class="pt-16 flex flex-col mx-auto sm:flex-row sm:pt-20">
+        <div class="  w-full md:w-1/2 pt-8">
+          <img class=" border rounded-full w-80 h-80" src="./images/law3.jpg" alt="">
+        </div>
+        <div class=" -translate-x-20 -translate-y-40   w-full  sm:w-1/2 sm:-translate-x-32 sm:-translate-y-40 ">
+          <img class="  sm:mt-28 border rounded-full w-60 h-60" src="./images/law3.jpg" alt="">
+        </div>
+      </div>
+      
+      <div class="text-center">
+        <h2 class="text-2xl font-bold text-center sm:text-3xl">Our Services</h2>
+        <p class="text-center pt-10 sm:text-lg mx-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, repellat.</p>
+        <!---list-->
+        <div class="flex justify-center items-center text-center italic">
+          <div class="text-base  text-justify mx-auto pt-16 sm:text-lg ">
+            <p>Drafting Bills of Costs</p>
+            <p>Drawing Certificates of Assessment</p>
+            <p>Drafting a Notice of Objection disputing costs claimed</p>
+            <p>Drafting Submissions in Response</p>
+            <p>Preparing, and responding to, Applications for Review</p>
+            <p>Preparing expert reports</p>
+            <p>Costs Budgets</p>
+            <button class="p-2 bg-login-color rounded-lg mt-4 translate-x-2/4">Inquire today</button>
+          </div>
+      </div>
+      </div>
+    </container>
+     
+    
+  </section>
+
+ <!---footer-->
+ <footer class="text-center bg-header-color text-white p-4">
+  <div class="mb-4">
+   <p>info@rose-lawyers.com</p>
+   <p>02 8089 3167</p>
+   <p>Level 21, 133 Castlereagh Street
+    Sydney NSW 2000
+   </p>
+   <p>Level 11/456 Lonsdale St
+    Melbourne VIC 3000</p>
+  </div>
+  <a class="" href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+ </footer>
+ <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+ <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
